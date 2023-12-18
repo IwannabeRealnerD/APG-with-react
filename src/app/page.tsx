@@ -8,7 +8,7 @@ export default function Home() {
       <div>
         <p>Is this server component?</p>
       </div>
-      <Link href={"/tab"}>tab page</Link>
+      <Link href="/tab">tab page</Link>
     </main>
   );
 }
