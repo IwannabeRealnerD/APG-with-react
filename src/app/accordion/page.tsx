@@ -1,12 +1,9 @@
 "use client";
 
 import { useState } from "react";
+
 import * as style from "./style.css";
-type OpenedMenuType =
-  | "PersonalInformation"
-  | "BillingAddress"
-  | "ShippingAddress"
-  | null;
+import { OpenedMenuType } from "./type";
 
 const AccodrionPage = () => {
   const [openedMenu, setOpenedMenu] = useState<OpenedMenuType>(null);
