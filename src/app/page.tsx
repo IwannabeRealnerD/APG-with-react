@@ -13,6 +13,7 @@ export default function Home() {
         <p>Is this server component?</p>
       </div>
       <Link href="/tab">tab page</Link>
+      <Link href="/accordion">accordion page</Link>
     </main>
   );
 }
